@@ -39,16 +39,23 @@ header nav ul a{
     color: #1C1B1B;
     text-decoration: none;
 }
-header .icon{
-    display:flex;
-    list-style: none;
-
-
-}
-header .icon:nth-child(1)  img{
-
+ header .icon{
+     display: flex;
+     list-style: none;
+     justify-content: space-between;
+ }
+header .icon  li:nth-child(1) {
     position: relative;
-    bottom: -5px;
+    bottom: -10px;
+}
+header .icon li:nth-child(2) {
+    position: relative;
+    left: 4px;
+    bottom: -1px;
+}
+header .icon li:nth-child(3) {
+    position: relative;
+    top: -3px;
 }
 .main_banner{
     padding-top: 90px;
@@ -58,7 +65,8 @@ header .icon:nth-child(1)  img{
     margin: auto;
 }
 .main_banner .container{
-    max-width: 1088px;
+    max-width: 1064px;
+    margin: auto;
 }
 .main_banner .container h1{
     width: 534px;
@@ -118,41 +126,46 @@ header .icon:nth-child(1)  img{
     color: #000000;
     margin-bottom: 27px;
 }
-.best_sellers .container p{
+.best_sellers .container p:nth-last-of-type(2){
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
     color: #000000;
-    margin-bottom: 47px;
     max-width: 632px;
-    max-height: 69px;
+    margin: auto;
     text-align: center;
     box-sizing: border-box;
 
 }
-.best_sellers .container h2:last-child{
-    margin-top: 88px;
-    margin-bottom: 52px;
-    text-align: center;
-}
-.best_sellers .description{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 20px;
+.best_sellers .container  p:nth-last-of-type(1){
+     font-style: normal;
+     font-weight: 400;
+     max-width: 371px;
+     margin: auto;
+     font-size: 20px;
+     line-height: 23px;
      color: #000000;
-    box-sizing: border-box;
-
+     padding-top: 47px;
+     padding-bottom: 88px;
+     text-align: center;
+     box-sizing: border-box;
 }
-.best_sellers .description img{
+.cards{
+    margin: auto;
+    max-width: 1064px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards article  img{
     max-width: 309px;
     max-height: 422px;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 27px;
 }
-.best_sellers .description h4{
+.cards article h4{
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -160,18 +173,25 @@ header .icon:nth-child(1)  img{
     text-align: center;
     color: #000000;
     margin-bottom: 17px;
-
-    width: 156px;
-
 }
-.best_sellers .description p{
+.cards  h5{
+    max-width: 1064px;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
     color: #000000;
     margin-bottom: 10px;
-    max-width: 73px;
-    max-height: 20px;
+    text-align: center;
+}
+.cards article a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+
+
 }

@@ -107,7 +107,7 @@ header .icon:nth-child(1)  img{
 }
 .best_sellers .container{
     max-width: 1064px;
-
+    margin: auto;
 }
 .best_sellers .container h2{
     font-style: normal;
@@ -125,8 +125,8 @@ header .icon:nth-child(1)  img{
     line-height: 23px;
     color: #000000;
     margin-bottom: 47px;
-    width: 632px;
-    height: 69px;
+    max-width: 632px;
+    max-height: 69px;
     text-align: center;
     box-sizing: border-box;
 
@@ -174,8 +174,4 @@ header .icon:nth-child(1)  img{
     margin-bottom: 10px;
     max-width: 73px;
     max-height: 20px;
-}
-.best_sellers .description .wrap{
-
-
 }

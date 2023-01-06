@@ -39,7 +39,143 @@ header nav ul a{
     color: #1C1B1B;
     text-decoration: none;
 }
-header ul{
-    display: flex;
+header .icon{
+    display:flex;
     list-style: none;
+
+
+}
+header .icon:nth-child(1)  img{
+
+    position: relative;
+    bottom: -5px;
+}
+.main_banner{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: #F0EFEB;
+    box-sizing: border-box;
+    margin: auto;
+}
+.main_banner .container{
+    max-width: 1088px;
+}
+.main_banner .container h1{
+    width: 534px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px;
+}
+.main_banner .container p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    width: 481px;
+    margin-bottom: 26px;
+}
+.btn{
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 7px 23px 9px 23px;
+    width: 129px;
+    height: 36px;
+    cursor: grab;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.main_baner_img{
+    max-width: 599px;
+    max-height: 528px;
+    position: relative;
+    left: 89px;
+}
+.best_sellers{
+    padding-top: 60px;
+    padding-bottom: 248px;
+    background: #E5E5E5;
+    box-sizing: border-box;
+}
+.best_sellers .container{
+    max-width: 1064px;
+
+}
+.best_sellers .container h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.best_sellers .container p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 47px;
+    width: 632px;
+    height: 69px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.best_sellers .container h2:last-child{
+    margin-top: 88px;
+    margin-bottom: 52px;
+    text-align: center;
+}
+.best_sellers .description{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+     color: #000000;
+    box-sizing: border-box;
+
+}
+.best_sellers .description img{
+    max-width: 309px;
+    max-height: 422px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 27px;
+}
+.best_sellers .description h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 17px;
+
+    width: 156px;
+
+}
+.best_sellers .description p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+    max-width: 73px;
+    max-height: 20px;
+}
+.best_sellers .description .wrap{
+
+
 }

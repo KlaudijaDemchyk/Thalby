@@ -156,6 +156,7 @@ header .icon li:nth-child(3) {
     max-width: 1064px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 .cards article  img{
     max-width: 309px;
@@ -163,6 +164,7 @@ header .icon li:nth-child(3) {
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 27px;
+
  }
 .cards article h4{
     font-style: normal;

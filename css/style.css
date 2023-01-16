@@ -110,7 +110,6 @@ header .icon li:nth-child(3) {
 .best_sellers{
     padding-top: 60px;
     padding-bottom: 248px;
-    background: #E5E5E5;
     box-sizing: border-box;
 }
 .best_sellers .container{
@@ -155,16 +154,17 @@ header .icon li:nth-child(3) {
     margin: auto;
     max-width: 1064px;
     display: flex;
-    justify-content: space-between;
     text-align: center;
+    justify-content: space-between;
 }
+
 .cards article  img{
     max-width: 309px;
     max-height: 422px;
     border-radius: 20px;
     overflow: hidden;
     margin-bottom: 27px;
-
+    margin: auto;
  }
 .cards article h4{
     font-style: normal;
@@ -190,4 +190,164 @@ header .icon li:nth-child(3) {
     line-height: 20px;
     text-decoration-line: underline;
     color: #000000;
+}
+.owl-dots button.owl-dot.active span,
+.owl-dots button.owl-dot:hover span {
+    background-color: #D399FF;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: 1px;
+    left:1px;
+}
+.owl-dots button.owl-dot{
+    border: 1px solid gray;
+    background: gray;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    position: relative;
+}
+.owl-dots button.owl-dot:nth-child(1){
+    margin-right: 20px;
+}
+.owl-dots button.owl-dot:nth-child(2){
+    margin-right: 20px;
+}
+.people_and_society{
+    padding-top: 76px;
+    padding-bottom: 61px;
+    background: rgba(204, 204, 204, 0.3);
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+}
+.people_and_society .container{
+    justify-content: start;
+    max-width: 1064px;
+}
+.people_and_society  img{
+    max-width: 385px;
+    min-height: 585px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+.people_and_society  h2{
+    padding-top: 92px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.people_and_society  p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    max-width: 498px;
+    margin-bottom: 40px;
+}
+.people_and_society a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000
+}
+.culture_and_heritage{
+    padding-top: 76px;
+    padding-bottom: 61px;
+    background: rgba(204, 204, 204, 0.6);
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+}
+.culture_and_heritage .container{
+    justify-content: start;
+    max-width: 1164px;
+    text-align: right;
+}
+.culture_and_heritage  img{
+    max-width: 385px;
+    min-height: 525px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.culture_and_heritage  h2{
+    padding-top: 92px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.culture_and_heritage  p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    max-width: 513px;
+    margin-bottom: 40px;
+}
+.culture_and_heritage a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000
+}
+.power_and_politics{
+    padding-top: 76px;
+    padding-bottom: 61px;
+    background: rgba(204, 204, 204, 0.3);
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+}
+.power_and_politics  .container{
+    justify-content: start;
+    max-width: 1064px;
+}
+.power_and_politics  img{
+    max-width: 385px;
+    min-height: 592px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+.power_and_politics  h2{
+    padding-top: 92px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.power_and_politics  p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    max-width: 530px;
+    margin-bottom: 40px;
+}
+.power_and_politics  a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000
 }
